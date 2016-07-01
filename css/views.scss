@@ -30,16 +30,16 @@
 
 /* --------------------------------------------------------------------------- opening */
 
-.view-3D .opening #sun, 
-.view-3D .opening .orbit, 
-.view-3D .opening .pos, 
-.view-3D .opening .planet, 
-.view-3D .opening .satelite, 
-.view-3D .opening .ring { 
+.view-3D .opening #sun,
+.view-3D .opening .orbit,
+.view-3D .opening .pos,
+.view-3D .opening .planet,
+.view-3D .opening .satelite,
+.view-3D .opening .ring {
   transition-duration: 4s;
 }
 
-#universe.opening #sun { 
+#universe.opening #sun {
   box-shadow: 0 0 0 rgba(255, 160, 60, 0);
 }
 
@@ -48,10 +48,10 @@
 .view-2D.zoom-large #sun    { transform-style: flat; }
 .view-2D.zoom-large .orbit  { transform-style: flat; }
 
-.view-2D #sun, 
+.view-2D #sun,
 .view-2D .ring              { transform: rotateX(0deg); }
 
-.view-2D .planet, 
+.view-2D .planet,
 .view-2D .moon              { transform: rotateX(90deg); }
 
 /* --------------------------------------------------------------------------- 3D view */
@@ -63,7 +63,7 @@
 .view-3D #sun               { transform: rotateX(-90deg); }
 .view-3D .ring              { transform: rotateX(90deg); }
 
-.view-3D .planet, 
+.view-3D .planet,
 .view-3D .moon              { transform: rotateX(0deg); }
 
 /* --------------------------------------------------------------------------- large zoom */
@@ -81,8 +81,8 @@
 
 /* --------------------------------------------------------------------------- close zoom */
 
-.zoom-close #solar-system { 
-  width: 200%; 
+.zoom-close #solar-system {
+  width: 200%;
   font-size: 100%;
 }
 
@@ -96,11 +96,11 @@
 .zoom-close.view-2D .scale-s #solar-system { font-size: 40%; }
 .zoom-close.view-3D .scale-s #solar-system { font-size: 40%; }
 
-.zoom-close .orbit, 
+.zoom-close .orbit,
 .zoom-close .pos,
-.zoom-close .planet, 
+.zoom-close .planet,
 .zoom-close .satelite,
-.zoom-close .ring{ 
+.zoom-close .ring{
   animation-play-state: paused!important;
   animation-duration: 0s!important;
   animation: none!important;
@@ -113,7 +113,7 @@
 
 .zoom-close.view-3D .moon      { transform: rotateX(90deg); }
 
-.zoom-close .pos{ 
+.zoom-close .pos{
   left: 100%!important;
   top: 50%!important;
 }

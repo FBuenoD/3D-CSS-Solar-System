@@ -6,7 +6,7 @@
 
 #mercury .planet        { animation-name: shadow-mercury; }
 
-@keyframes 
+@keyframes
 shadow-mercury  { 0%    { box-shadow: inset 0       0     1px  rgba(0, 0, 0, 0.5); /* TOP */ }
                   25%   { box-shadow: inset 4px     0     2px  rgba(0, 0, 0, 0.5); /* LEFT */ }
                   50%   { box-shadow: inset 13px    -5px  4px  rgba(0, 0, 0, 0.5); /* BOTTOM */ }
@@ -24,17 +24,17 @@ shadow-mercury  { 0%    { box-shadow: inset 0       0     1px  rgba(0, 0, 0, 0.5
 
 #venus .planet          { animation-name: shadow-venus; }
 
-@keyframes 
+@keyframes
 shadow-venus    { 0%    { box-shadow: inset 4px    0     2px  rgba(0, 0, 0, 0.5); /* LEFT */ }
                   25%   { box-shadow: inset 22px   -20px 10px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
                   25.5% { box-shadow: inset -22px  -20px 10px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
                   50%   { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
                   75%   { box-shadow: inset 0      0     1px  rgba(0, 0, 0, 0.5); /* TOP */ }
                   100%  { box-shadow: inset 4px    0     2px  rgba(0, 0, 0, 0.5); /* LEFT */ }
-                } 
+                }
 
 .scaled.view-2D #venus .planet,
-.scaled.view-3D #venus .planet { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }          
+.scaled.view-3D #venus .planet { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
 
 /* --------------------------------------------------------------------------- earth ; pos: Right */
 
@@ -42,13 +42,13 @@ shadow-venus    { 0%    { box-shadow: inset 4px    0     2px  rgba(0, 0, 0, 0.5)
 
 #earth .planet          { animation-name: shadow-earth; }
 
-@keyframes 
+@keyframes
 shadow-earth    { 0%    { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
                   25%   { box-shadow: inset 0      0     1px  rgba(0, 0, 0, 0.5); /* TOP */ }
                   50%   { box-shadow: inset 4px    0     2px  rgba(0, 0, 0, 0.5); /* LEFT */ }
                   75%   { box-shadow: inset 24px   -20px 15px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
                   75.01%{ box-shadow: inset -24px  -20px 15px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
-                  100%  { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ } 
+                  100%  { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
                 }
 
 .scaled.view-2D #earth .planet,
@@ -64,7 +64,7 @@ shadow-earth    { 0%    { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5)
 
 #mars .planet           { animation-name: shadow-mars; }
 
-@keyframes 
+@keyframes
 shadow-mars     { 0%    { box-shadow: inset -18px   -10px  10px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
                   25%   { box-shadow: inset -4px   0     2px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
                   50%   { box-shadow: inset 0      1px  1px  rgba(0, 0, 0, 0.5); /* TOP */ }
@@ -82,7 +82,7 @@ shadow-mars     { 0%    { box-shadow: inset -18px   -10px  10px rgba(0, 0, 0, 0.
 
 #jupiter .planet        { animation-name: shadow-jupiter; }
 
-@keyframes 
+@keyframes
 shadow-jupiter  { 0%     { box-shadow: inset -16px  0     5px   rgba(0, 0, 0, 0.5); /* RIGHT */ }
                   25%    { box-shadow: inset 0      3px   2px   rgba(0, 0, 0, 0.5); /* TOP */ }
                   50%    { box-shadow: inset 16px   0     5px   rgba(0, 0, 0, 0.5); /* LEFT */ }
@@ -100,13 +100,13 @@ shadow-jupiter  { 0%     { box-shadow: inset -16px  0     5px   rgba(0, 0, 0, 0.
 
 #saturn .planet         { animation-name:     shadow-saturn; }
 
-@keyframes 
+@keyframes
 shadow-saturn   { 0%    { box-shadow: inset 16px    0     5px  rgba(0, 0, 0, 0.5); /* LEFT */ }
                   25%   { box-shadow: inset 80px  -30px  50px  rgba(0, 0, 0, 0.5); /* BOTTOM */ }
                   25.01%{ box-shadow: inset -94px -30px  40px  rgba(0, 0, 0, 0.5); /* BOTTOM */ }
                   50%   { box-shadow: inset -16px   0     5px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
                   75%   { box-shadow: inset -2px    3px   2px  rgba(0, 0, 0, 0.5); /* TOP */ }
-                  100%  { box-shadow: inset 16px    0     5px  rgba(0, 0, 0, 0.5); /* LEFT */ } 
+                  100%  { box-shadow: inset 16px    0     5px  rgba(0, 0, 0, 0.5); /* LEFT */ }
                 }
 
 .scaled.view-2D #saturn .planet,
@@ -118,7 +118,7 @@ shadow-saturn   { 0%    { box-shadow: inset 16px    0     5px  rgba(0, 0, 0, 0.5
 
 #saturn .ring           { animation-name:     shadow-saturn-ring; }
 
-@keyframes 
+@keyframes
 shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50, 0.45); opacity: .4; }
                   25%    { box-shadow: inset -5px   -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
                   25.01% { box-shadow: inset 5px    -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
@@ -138,7 +138,7 @@ shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50
 
 #uranus .planet         { animation-name: shadow-uranus; }
 
-@keyframes 
+@keyframes
 shadow-uranus   { 0%    { box-shadow: inset 8px     0     5px  rgba(0, 0, 0, 0.5); /* LEFT */ }
                   25%   { box-shadow: inset 40px   -15px 40px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
                   25.01%{ box-shadow: inset -40px  -15px 40px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
@@ -156,7 +156,7 @@ shadow-uranus   { 0%    { box-shadow: inset 8px     0     5px  rgba(0, 0, 0, 0.5
 
 #neptune .planet        { animation-name: shadow-neptune; }
 
-@keyframes 
+@keyframes
 shadow-neptune  { 0%    { box-shadow: inset 0       0     2px  rgba(0, 0, 0, 0.5); /* TOP */ }
                   25%   { box-shadow: inset 12px    0     5px  rgba(0, 0, 0, 0.5); /* LEFT */ }
                   50%   { box-shadow: inset 50px   -15px  40px rgba(0, 0, 0, 0.5); /* BOTTOM */ }
@@ -169,9 +169,9 @@ shadow-neptune  { 0%    { box-shadow: inset 0       0     2px  rgba(0, 0, 0, 0.5
 .scaled.view-3D #neptune .planet { box-shadow: inset -12px   0     5px  rgba(0, 0, 0, 0.5); /* RIGHT */ }
 
 
-/* --------------------------------------------------------------------------- DEBUG 
-.pos, 
-.planet, 
+/* --------------------------------------------------------------------------- DEBUG
+.pos,
+.planet,
 .orbit,
 .ring { animation-duration: 20s!important; }
 

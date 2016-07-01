@@ -20,40 +20,40 @@ $s-neptune:                 164.79132;
   @return ($sidyear)*$speedRatio;
 }
 
-#mercury .pos, 
-#mercury .planet, 
+#mercury .pos,
+#mercury .planet,
 #mercury.orbit            { animation-duration: sideralyear($s-mercury); }
 
-#venus .pos, 
-#venus .planet, 
+#venus .pos,
+#venus .planet,
 #venus.orbit              { animation-duration: sideralyear($s-venus); }
 
-#earth .pos, 
-#earth .planet, 
+#earth .pos,
+#earth .planet,
 #earth.orbit              { animation-duration: sideralyear($s-earth); }
 
 #earth .orbit .pos,
 #earth .orbit /* Moon */  { animation-duration: sideralyear($s-moon); }
 
-#mars .pos, 
-#mars .planet, 
+#mars .pos,
+#mars .planet,
 #mars.orbit               { animation-duration: sideralyear($s-mars); }
 
-#jupiter .pos, 
-#jupiter .planet, 
+#jupiter .pos,
+#jupiter .planet,
 #jupiter.orbit            { animation-duration: sideralyear($s-jupiter); }
 
-#saturn .pos, 
-#saturn .planet, 
+#saturn .pos,
+#saturn .planet,
 #saturn.orbit,
 #saturn .ring             { animation-duration: sideralyear($s-saturn); }
 
-#uranus .pos, 
-#uranus .planet, 
+#uranus .pos,
+#uranus .planet,
 #uranus.orbit             { animation-duration: sideralyear($s-uranus); }
 
-#neptune .pos, 
-#neptune .planet, 
+#neptune .pos,
+#neptune .planet,
 #neptune.orbit            { animation-duration: sideralyear($s-neptune); }
 
 /* --------------------------------------------------------------------------- planets sizes */
@@ -196,7 +196,7 @@ $d-neptune:             4498396441;
 
 /* --------------------------------------------------------------------------- speed */
 
-.set-speed dl.infos dd span:after     { content: 'Orbit Velocity'; }
+.set-speed dl.infos dd span:after     { content: 'Velocidade Órbita'; }
 
 .set-speed #sun dl.infos dd:after     { content: '0 km/h'; }
 .set-speed #mercury dl.infos dd:after { content: '170,503 km/h'; }
@@ -210,7 +210,7 @@ $d-neptune:             4498396441;
 
 /* --------------------------------------------------------------------------- size */
 
-.set-size dl.infos dd span:after     { content: 'Equatorial Circumference'; }
+.set-size dl.infos dd span:after     { content: 'Circunferência Equatorial'; }
 
 .set-size #sun dl.infos dd:after     { content: '4,370,005 km'; }
 .set-size #mercury dl.infos dd:after { content: '15,329 km'; }
@@ -224,8 +224,8 @@ $d-neptune:             4498396441;
 
 /* --------------------------------------------------------------------------- distance */
 
-.set-distance dl.infos dd span:after     { content: 'From Sun'; }
-.set-distance #sun dl.infos dd span:after{ content: 'From Earth'; }
+.set-distance dl.infos dd span:after     { content: 'Do Sol'; }
+.set-distance #sun dl.infos dd span:after{ content: 'Da Terra'; }
 
 .set-distance #sun dl.infos dd:after     { content: '149,598,262 km'; }
 .set-distance #mercury dl.infos dd:after { content: '57,909,227 km'; }

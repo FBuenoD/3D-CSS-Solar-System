@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title dir="ltr">3D CSS Solar System</title>
+    <title dir="ltr">Sistema Solar 3D</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
   </head>
   <body class="opening hide-UI view-2D zoom-large data-close controls-close">
     <div id="navbar">
-      <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
-      <h1>3D CSS Solar System</h1>
-      <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controls</a>
+      <a id="toggle-data" href="#data"><i class="icon-data"></i>Planetas</a>
+      <h1>Sistema Solar 3D</h1>
+      <a id="toggle-controls" href="#controls"><i class="icon-controls"></i>Controles</a>
     </div>
     <div id="data">
-      <a class="sun" title="sun" href="#sunspeed">Sun</a>
-      <a class="mercury" title="mercury" href="#mercuryspeed">Mercury</a>
-      <a class="venus" title="venus" href="#venusspeed">Venus</a>
-      <a class="earth active" title="earth" href="#earthspeed">Earth</a>
-      <a class="mars" title="mars" href="#marsspeed">Mars</a>
-      <a class="jupiter" title="jupiter" href="#jupiterspeed">Jupiter</a>
-      <a class="saturn" title="saturn" href="#saturnspeed">Saturn</a>
-      <a class="uranus" title="uranus" href="#uranusspeed">Uranus</a>
-      <a class="neptune" title="neptune" href="#neptunespeed">Neptune</a>
+      <a class="sun" title="sun" href="#sunspeed">Sol</a>
+      <a class="mercury" title="mercury" href="#mercuryspeed">Mercúrio</a>
+      <a class="venus" title="venus" href="#venusspeed">Vênus</a>
+      <a class="earth active" title="earth" href="#earthspeed">Terra</a>
+      <a class="mars" title="mars" href="#marsspeed">Marte</a>
+      <a class="jupiter" title="jupiter" href="#jupiterspeed">Júpiter</a>
+      <a class="saturn" title="saturn" href="#saturnspeed">Saturno</a>
+      <a class="uranus" title="uranus" href="#uranusspeed">Urano</a>
+      <a class="neptune" title="neptune" href="#neptunespeed">Netuno</a>
     </div>
     <div id="controls">
       <label class="set-view">
@@ -35,15 +35,15 @@
       </label>
       <label>
         <input type="radio" class="set-speed" name="scale" checked>
-        <span>Speed</span>
+        <span>Velocidade</span>
       </label>
       <label>
         <input type="radio" class="set-size" name="scale">
-        <span>Size</span>
+        <span>Tamanho</span>
       </label>
       <label>
         <input type="radio" class="set-distance" name="scale">
-        <span>Distance</span>
+        <span>Distância</span>
       </label>
     </div>
     <div id="universe" class="scale-stretched">
@@ -53,7 +53,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt>Mercury</dt>
+                  <dt>Mercúrio</dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -63,7 +63,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt>Venus</dt>
+                  <dt>Vênus</dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -78,7 +78,7 @@
               </div>
               <div class="planet">
                 <dl class="infos">
-                  <dt>Earth</dt>
+                  <dt>Terra</dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -88,7 +88,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt>Mars</dt>
+                  <dt>Marte</dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -98,7 +98,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt>Jupiter</dt>
+                  <dt>Júpiter</dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -109,7 +109,7 @@
               <div class="planet">
                 <div class="ring"></div>
                 <dl class="infos">
-                  <dt>Saturn</dt>
+                  <dt>Saturno</dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -119,7 +119,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt>Uranus</dt>
+                  <dt>Urano</dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -129,7 +129,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt>Neptune</dt>
+                  <dt>Netuno</dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -137,7 +137,7 @@
           </div>
           <div id="sun">
             <dl class="infos">
-              <dt>Sun</dt>
+              <dt>Sol</dt>
               <dd><span></span></dd>
             </dl>
           </div>
@@ -146,12 +146,12 @@
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script type="text/javascript">
-    if (typeof jQuery == 'undefined') { 
+    if (typeof jQuery == 'undefined') {
       document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
     }
     </script>
     <script src="js/prefixfree.min.js"></script>
     <script src="js/scripts.min.js"></script>
   </body>
-  
+
 </html>
